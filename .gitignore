@@ -1,0 +1,78 @@
+# =========================
+# NEXT.JS (Frontend) - smarttraffic-ai
+# =========================
+/smarttraffic-ai/node_modules
+/smarttraffic-ai/.pnp
+/smarttraffic-ai.pnp.js
+
+# Next.js build output
+/smarttraffic-ai/.next
+/smarttraffic-ai/out
+
+# Production
+/smarttraffic-ai/build
+
+# Testing
+/smarttraffic-ai/coverage
+
+# Environment variables
+/smarttraffic-ai/.env.local
+/smarttraffic-ai/.env.development.local
+/smarttraffic-ai/.env.test.local
+/smarttraffic-ai/.env.production.local
+
+# VS Code settings
+/smarttraffic-ai/.vscode/
+
+# Log files
+/smarttraffic-ai/npm-debug.log*
+/smarttraffic-ai/yarn-debug.log*
+/smarttraffic-ai/yarn-error.log*
+
+# Next.js specific config files
+/smarttraffic-ai/.next/
+
+# =========================
+# DJANGO (Backend) - TrafficMS/TrafficMS
+# =========================
+/TrafficMS/TrafficMS/__pycache__/
+/TrafficMS/TrafficMS/*.py[cod]
+/TrafficMS/TrafficMS/*$py.class
+
+# Virtual environment
+/TrafficMS/TrafficMS/venv/
+/TrafficMS/TrafficMS/.venv/
+/TrafficMS/TrafficMS/.env/
+
+# Distribution / packaging
+/TrafficMS/TrafficMS/build/
+/TrafficMS/TrafficMS/dist/
+/TrafficMS/TrafficMS/*.egg-info/
+/TrafficMS/TrafficMS/.eggs/
+
+/TrafficMS/TrafficMS/media/
+/TrafficMS/TrafficMS/staticfiles/
+
+/TrafficMS/TrafficMS/db.sqlite3
+/TrafficMS/TrafficMS/*.sqlite3
+/TrafficMS/TrafficMS/*.db
+/TrafficMS/TrafficMS/.mypy_cache/
+/TrafficMS/TrafficMS/.pyre/
+
+/TrafficMS/TrafficMS/celerybeat-schedule
+
+# Logs and IDE files
+/TrafficMS/TrafficMS/*.log
+/TrafficMS/TrafficMS/.vscode/
+/TrafficMS/TrafficMS/.idea/
+/TrafficMS/TrafficMS/.ipynb_checkpoints
+
+# Windows & macOS specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Environment variables and secrets
+/TrafficMS/TrafficMS/.env
+/TrafficMS/TrafficMS/*.pem
+/TrafficMS/TrafficMS/config.json
